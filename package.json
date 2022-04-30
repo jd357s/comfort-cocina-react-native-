@@ -1,0 +1,40 @@
+{
+  "name": "ComfortCocina",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "^0.59.8",
+    "react-native-calendar": "^0.13.1",
+    "react-native-calendar-picker": "^6.0.0",
+    "react-native-calendars": "^1.178.0",
+    "react-native-checkbox": "^2.0.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-firebase": "^5.3.1",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-radio-buttons-group": "^1.0.7",
+    "react-native-responsive-screen": "^1.2.1",
+    "react-native-snap-carousel": "^3.8.0",
+    "react-native-star-rating": "^1.1.0",
+    "react-navigation": "^3.6.1",
+    "toggle-switch-react-native": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
